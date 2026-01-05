@@ -18,6 +18,7 @@
   </nav>
 </header>
 
+<!-- Hero Section -->
 <section class="hero">
   <div class="hero-text">
     <h2>The Home of American Football</h2>
@@ -29,13 +30,15 @@
   </div>
 </section>
 
+<!-- Image Wall Section -->
 <section class="image-wall">
-  <img src="https://unsplash.com/photos/a-stadium-full-of-people-watching-a-football-game-eoi7E12koaM">
-  <img src="https://unsplash.com/photos/american-football-stadium-sYY1FlMHOV4">
-  <img src="https://unsplash.com/photos/people-watching-soccer-game-during-daytime-6XU8Xbrt95M">
-  <img src="https://unsplash.com/photos/football-field-GB9XKDZWwp0">
+  <img src="https://images.unsplash.com/photo-1562072547-6c6eb918e18b?auto=format&fit=crop&w=800&q=80" alt="Football action 1">
+  <img src="https://images.unsplash.com/photo-1599058917213-9cfc57f6c9a8?auto=format&fit=crop&w=800&q=80" alt="Football action 2">
+  <img src="https://images.unsplash.com/photo-1509228627153-45137e2ed4e6?auto=format&fit=crop&w=800&q=80" alt="Football crowd">
+  <img src="https://images.unsplash.com/photo-1599058917320-6a1f451b6ff6?auto=format&fit=crop&w=800&q=80" alt="NFL stadium">
 </section>
 
+<!-- Info Section -->
 <section class="info">
   <h2>Why the NFL Is King</h2>
   <p>
@@ -49,6 +52,7 @@
   </p>
 </section>
 
+<!-- Cards Section -->
 <section class="cards">
   <div class="card" onclick="go('players.html')">
     <h3>⭐ Star Players</h3>
@@ -70,6 +74,11 @@
   <p>Ultimate NFL Hub • Built for football fans</p>
 </footer>
 
-<script src="script.js"></script>
+<script>
+function go(page) {
+  window.location.href = page;
+}
+</script>
+
 </body>
 </html>
