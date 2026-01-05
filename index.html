@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate NFL Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="top">
+  <h1>🏈 Ultimate NFL Hub</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="players.html">Players</a>
+    <a href="teams.html">Teams</a>
+    <a href="stats.html">Stats</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>The Home of American Football</h2>
+    <p>Players. Teams. Stats. History.</p>
+    <div class="hero-buttons">
+      <a href="players.html" class="btn">Explore Players</a>
+      <a href="teams.html" class="btn">View Teams</a>
+    </div>
+  </div>
+</section>
+
+<section class="image-wall">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/NFL_Game.jpg">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/American_football_game.jpg">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/NFL_Stadium.jpg">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/American_football_action.jpg">
+</section>
+
+<section class="info">
+  <h2>Why the NFL Is King</h2>
+  <p>
+    The National Football League (NFL) is the most popular and profitable sports league
+    in the United States. With 32 franchises split between the AFC and NFC, the NFL
+    showcases the highest level of American football in the world.
+  </p>
+  <p>
+    Each season culminates in the Super Bowl, one of the most watched sporting events
+    globally. The league blends elite athleticism, strategy, physicality, and spectacle.
+  </p>
+</section>
+
+<section class="cards">
+  <div class="card" onclick="go('players.html')">
+    <h3>⭐ Star Players</h3>
+    <p>Learn about elite NFL athletes</p>
+  </div>
+
+  <div class="card" onclick="go('teams.html')">
+    <h3>🏟️ Teams</h3>
+    <p>All 32 franchises</p>
+  </div>
+
+  <div class="card" onclick="go('stats.html')">
+    <h3>📊 Stats</h3>
+    <p>League leaders & records</p>
+  </div>
+</section>
+
+<footer>
+  <p>Ultimate NFL Hub • Built for football fans</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
