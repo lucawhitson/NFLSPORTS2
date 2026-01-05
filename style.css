@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0f0f23;
+  color: #eee;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(120deg, #1a1a3d, #4b0082);
+}
+
+.top h1 {
+  font-family: 'Anton', sans-serif;
+  color: #ffcc00;
+}
+
+nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  height: 60vh;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/NFL_Game.jpg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  background: #ffcc00;
+  color: #1a1a3d;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.image-wall {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height: 300px;
+}
+
+.image-wall img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  padding: 60px 15%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+}
+
+.card {
+  background: #1a1a3d;
+  border: 3px solid #ffcc00;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.player-grid, .team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 30px;
+  padding: 50px;
+}
+
+.player-card, .team-card {
+  background: #1a1a3d;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid #ffcc00;
+}
+
+.player-card img, .team-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.stats-section {
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 2px solid #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a3d;
+}
